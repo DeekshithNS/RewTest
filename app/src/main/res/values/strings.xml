@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RewTest</string>
+    <string name="turn_on_off">TURN ON/OFF</string>
+    <string name="action_bar_namr">Controller</string>
 </resources>
