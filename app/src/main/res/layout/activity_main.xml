@@ -20,21 +20,119 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            android:id="@+id/bulb1_linear_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="200sp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/bulb1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bulb1" />
+                android:text="@string/bulb2"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:theme="@style/TextAppearance.AppCompat.Inverse" />
 
-            <ImageButton
-                android:id="@+id/imageButton"
+            <ToggleButton
+                android:id="@+id/button_bulb1"
+                style="@android:style/Theme.Material.Light.Dialog.Presentation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/btn_star_big_on" />
+                android:background="@android:color/darker_gray"
+                android:text="ToggleButton"
+                android:textColor="@android:color/holo_blue_dark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bulb2_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="300sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bulb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bulb3"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:theme="@style/TextAppearance.AppCompat.Inverse" />
+
+            <ToggleButton
+                android:id="@+id/button_bulb2"
+                style="@android:style/Theme.Material.Light.Dialog.Presentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="ToggleButton"
+                android:textColor="@android:color/holo_blue_dark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bulb3_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="300sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bulb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bulb4"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:theme="@style/TextAppearance.AppCompat.Inverse" />
+
+            <ToggleButton
+                android:id="@+id/button_bulb3"
+                style="@android:style/Theme.Material.Light.Dialog.Presentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="ToggleButton"
+                android:textColor="@android:color/holo_blue_dark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bulb4_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="200sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bulb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bulb1"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:theme="@style/TextAppearance.AppCompat.Inverse" />
+
+            <ToggleButton
+                android:id="@+id/button_bulb4"
+                style="@android:style/Theme.Material.Light.Dialog.Presentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="ToggleButton"
+                android:textColor="@android:color/holo_blue_dark" />
+
         </LinearLayout>
 
         <LinearLayout
